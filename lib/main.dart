@@ -1,12 +1,15 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  Container name = Container(color: Colors.brown,
+  runApp(
+    Container(
+      color: Colors.blue,
       child: Text(
-        'Muhriddin Usanov' * 30,
+        'Muhriddin\n' * 12,
+        textAlign: TextAlign.center,
         textDirection: TextDirection.ltr,
-        style: TextStyle(color: Colors.orange, fontSize: 30),
+        style: TextStyle(color: Colors.black, fontSize: 60, fontStyle: FontStyle.normal),
       ),
-    );
-    runApp(name);
+    ),
+  );
 }
